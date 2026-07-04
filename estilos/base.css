@@ -1,5 +1,5 @@
 :root {
-  --cor-primaria: #1f6f73;
+  --cor-primaria: #ffffff;
   --cor-segundaria: #556b1f;
   --cor-destaque1: #1d4d72;
   --cor-destaque2: #333333;
@@ -25,8 +25,8 @@ main {
 /* HEADER */
 
 header h1 {
-  background: #1f4f78;
-  color: #fff;
+  background: var(--cor-destaque1);
+  color: var(--cor-primaria);
   text-align: center;
   padding: 20px;
   font-size: 1.4rem;
@@ -36,8 +36,8 @@ h2 {
   text-align: center;
 }
 nav {
-  background: #333;
-  color: #fff;
+  background: var(--cor-destaque2);
+  color: var(--cor-primaria);
 }
 
 nav ul {
@@ -48,13 +48,13 @@ nav ul {
 
 nav a {
   display: block;
-  color: white;
+  color: var(--cor-primaria);
   text-decoration: none;
   padding: 15px;
 }
 
 nav a:hover {
-  background: #1f4f78;
+  background: var(--cor-destaque1);
 }
 
 /* MAIN */
@@ -72,27 +72,28 @@ main h1 {
 }
 
 .card {
-  background: white;
+  background: var(--cor-primaria);
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .card h2 {
-  background: #1f4f78;
-  color: white;
+  background: var(--cor-destaque1);
+  color: var(--cor-primaria);
   text-align: center;
   padding: 12px;
 }
 
 .card img {
-  width: 180px;
+  width: 160px;
   display: block;
-  margin: 20px auto;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .card p {
-  padding: 20px;
+  padding: 15px;
   line-height: 1.6;
 }
 
@@ -105,13 +106,12 @@ main h1 {
 footer {
   max-width: 1000px;
   margin: 30px auto 0;
-  background: #1f4f78;
-  color: white;
+  background: var(--cor-destaque1);
+  color: var(--cor-primaria);
   text-align: center;
   padding: 20px;
 }
 
 #ultimaModificacao {
-  color: rgb(0, 0, 0);
-  margin-top: 10px;
+  color: var(--cor-primaria);
 }
