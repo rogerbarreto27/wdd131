@@ -13,12 +13,12 @@
 }
 
 header {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 30px auto;
 }
 
@@ -32,7 +32,8 @@ header h1 {
   font-size: 1.4rem;
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 nav {
@@ -65,10 +66,10 @@ main h1 {
   font-size: 2.5rem;
 }
 
-.cards {
+.divisao {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 20px;
+  gap: 15px;
 }
 
 .card {
