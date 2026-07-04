@@ -13,70 +13,98 @@
 }
 
 header {
-  display: block;
-  text-align: center;
-  background: var(--cor-destaque1);
-  color: #fff;
-}
-
-.texto {
-  padding: 15px;
-}
-
-.perfil {
-  border-radius: 50%;
-  margin: 15px;
-}
-footer {
-  display: block;
-  text-align: center;
-  padding: 15px;
-  background: var(--cor-destaque1);
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.links {
-  display: flex;
-  justify-content: space-around;
-  background: var(--cor-destaque2);
-  color: #fff;
-  font-size: 25px;
-  padding: 6px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 main {
-  display: grid;
-  justify-items: center;
+  max-width: 1000px;
+  margin: 30px auto;
 }
 
-h3 {
-  background: var(--cor-destaque1);
+/* HEADER */
+
+header h1 {
+  background: #1f4f78;
   color: #fff;
-  padding: 5px;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.4rem;
 }
+
+nav {
+  background: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav a:hover {
+  background: #1f4f78;
+}
+
+/* MAIN */
+
+main h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 2.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
 .card {
-  border: 1px solid var(--cor-destaque2);
-  border-radius: 8px;
-  text-align: center;
-  width: 800px;
-  height: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.card1 {
-  border: 1px solid var(--cor-destaque2);
-  border-radius: 8px;
+.card h2 {
+  background: #1f4f78;
+  color: white;
   text-align: center;
-  width: 800px;
-  height: auto;
+  padding: 12px;
 }
 
-.bandeira {
-  height: 150px;
-  border-radius: 8px;
-  margin: 15px;
+.card img {
+  width: 180px;
+  display: block;
+  margin: 20px auto;
+}
+
+.card p {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+
+footer {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  background: #1f4f78;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#ultimaModificacao {
+  color: yellow;
+  margin-top: 10px;
 }
