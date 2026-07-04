@@ -19,17 +19,58 @@ header {
   color: #fff;
 }
 
-nav {
+.texto {
+  padding: 15px;
+}
+
+.perfil {
+  border-radius: 50%;
+  margin: 15px;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  background: var(--cor-destaque1);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links {
   display: flex;
   justify-content: space-around;
   background: var(--cor-destaque2);
   color: #fff;
   font-size: 25px;
+  padding: 6px;
 }
 
 main {
   display: grid;
+  justify-items: center;
 }
 
+h3 {
+  background: var(--cor-destaque1);
+  color: #fff;
+  padding: 5px;
+}
 .card {
+  border: 1px solid var(--cor-destaque2);
+  border-radius: 8px;
+  text-align: center;
+  width: 800px;
+  height: auto;
+}
+
+.card1 {
+  border: 1px solid var(--cor-destaque2);
+  border-radius: 8px;
+  text-align: center;
+  width: 800px;
+  height: auto;
 }
