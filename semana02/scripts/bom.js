@@ -7,6 +7,15 @@ const li = document.createElement("li");
 const botaoExcluir = document.createElement("button");
 
 li.textContent = input.value;
-botaoExcluir = textContent = "x";
+botaoExcluir = textContent = "❌";
 li.append(botaoExcluir);
 lista.append("li");
+
+button.addEventListener("click", function () {
+  list.removeChild(li);
+  input.focus();
+});
+
+<button aria-label="Close" id="close-button">
+  ❌
+</button>;
