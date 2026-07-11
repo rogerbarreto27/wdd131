@@ -38,7 +38,7 @@ nav ul {
 nav a {
   display: none;
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 nav a:hover {
   color: #fff;
