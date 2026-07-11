@@ -5,14 +5,12 @@
   margin: 0;
 }
 
-main,
-header,
-footer {
-  max-width: 1000px;
+main {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-main h1 {
+main h2 {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -30,7 +28,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
+  font-size: 1.2rem;
   gap: 30px;
 }
 nav a {
@@ -57,7 +55,7 @@ figure {
   display: grid;
   grid-template-columns: repeat (auto-fit, minmax(200px, 1fr));
 }
-figure p {
+figure figcaption {
   text-align: center;
   margin: 2px 0px 10px;
 }
@@ -73,7 +71,7 @@ footer {
 }
 
 #menu.open::before {
-  content: "❎";
+  content: "X";
 }
 
 #menu {
@@ -89,5 +87,16 @@ footer {
 
 .open a {
   display: flex;
+}
+
+.navegacao.open {
+  display: flex;
   flex-direction: column;
+  font-size: 1.2rem;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+h1.open {
+  display: none;
 }

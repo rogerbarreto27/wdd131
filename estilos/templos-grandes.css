@@ -1,18 +1,10 @@
-@media (min-width: 720px) {
+@media (min-width: 900px) {
   #menu {
     display: none; /* ocultar botão de hambúrguer */
-  }
-
-  ul {
-    flex-direction: row;
   }
 
   ul a {
     display: block;
     flex: 1 1 100%;
-  }
-
-  .enchimento {
-    margin: 1rem auto;
   }
 }
