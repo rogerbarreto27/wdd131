@@ -24,7 +24,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  background-color: #49689e;
+  background-color: #0076b6;
   margin: 0 auto;
   padding: 15px;
   margin-bottom: 20px;
@@ -65,7 +65,7 @@ figure figcaption {
 }
 
 footer {
-  background-color: #49689e;
+  background-color: #0076b6;
   padding: 15px;
   text-align: center;
   color: #ffffff;
